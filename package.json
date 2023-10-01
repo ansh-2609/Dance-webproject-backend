@@ -8,6 +8,9 @@
     "start" : "node aap.js",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client/view"
   },
+  "engines": {
+    "node": ">=14.17.0"
+  },
   "author": "Ansh",
   "license": "ISC",
   "dependencies": {
